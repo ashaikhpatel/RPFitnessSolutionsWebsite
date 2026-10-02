@@ -2,6 +2,8 @@
 
 A multi-page business website for **RP Fitness Solutions**, a Chicago-area company that repairs, maintains, and assembles fitness equipment. The site helps customers find the services they need, see examples of past work, check whether their suburb is covered, and send a quote request.
 
+link: https://www.rpfitnesssolutions.com/
+
 Built with plain **HTML, CSS, and JavaScript** (no frameworks or build step).
 
 | Before | After |
