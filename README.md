@@ -6,7 +6,7 @@ Built with plain **HTML, CSS, and JavaScript** (no frameworks or build step).
 
 | Before | After |
 | :---: | :---: |
-| ![Before](images/before_treadmil1.jpg) | ![After](images/after_treadmil1.jpg) |
+| ![Before](before_treadmil1.jpg) | ![After](after_treadmil1.jpg) |
 
 *A before and after example from the site's gallery.*
 
