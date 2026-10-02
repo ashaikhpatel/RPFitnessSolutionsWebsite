@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fitness Equipment Repair Chicago IL | RP Fitness Solutions</title>
+  <meta name="description" content="Chicago's trusted fitness equipment repair specialists. Treadmill, elliptical & exercise bike repair across Chicago and 30+ suburbs. 90-day warranty. Call (773) 977-3004.">
+  <meta name="keywords" content="fitness equipment repair Chicago, treadmill repair Chicago IL, elliptical repair Chicago, exercise bike repair Chicago, gym equipment repair Chicago, NordicTrack repair Chicago, Peloton repair Chicago, Landice treadmill repair Chicago">
+  <link rel="canonical" href="https://www.rpfitnesssolutions.com/">
+
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://www.rpfitnesssolutions.com/">
+  <meta property="og:title"       content="Fitness Equipment Repair Chicago | RP Fitness Solutions">
+  <meta property="og:description" content="Chicago's trusted fitness equipment repair. 90-day warranty. Serving Chicago and 30+ suburbs.">
+  <meta property="og:image"       content="https://www.rpfitnesssolutions.com/images/img1.jpg">
+  <meta name="twitter:card"       content="summary_large_image">
+
+  <link rel="icon" type="image/png" href="images/rp-fitness-logo.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.rpfitnesssolutions.com/#business",
+    "name": "RP Fitness Solutions",
+    "description": "Professional fitness equipment repair, maintenance and assembly in Chicago and surrounding suburbs.",
+    "url": "https://www.rpfitnesssolutions.com",
+    "telephone": "+17739773004",
+    "email": "rpfitnesssolutions@gmail.com",
+    "logo": "https://www.rpfitnesssolutions.com/images/rp-fitness-logo.png",
+    "image": "https://www.rpfitnesssolutions.com/images/img1.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8047 W Davis St",
+      "addressLocality": "Niles",
+      "addressRegion": "IL",
+      "postalCode": "60714",
+      "addressCountry": "US"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 42.0197, "longitude": -87.8030 },
+    "areaServed": ["Chicago","Niles","Evanston","Skokie","Glenview","Barrington","Elgin","Lombard","West Chicago","Naperville","Westmont","Bridgeview","Cicero","Oak Park","West Town","Schaumburg","Arlington Heights","Des Plaines","Palatine","Wilmette"],
+    "openingHours": "Mo-Su 07:00-21:00",
+    "priceRange": "$$",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "bestRating": "5", "worstRating": "1", "ratingCount": "127" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Do you offer same-day fitness equipment repair in Chicago?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We offer same-day repair service across Chicago and most suburbs within 70km. Call (773) 977-3004 to book." } },
+      { "@type": "Question", "name": "What fitness equipment brands do you repair?", "acceptedAnswer": { "@type": "Answer", "text": "We service all major brands including NordicTrack, Peloton, Bowflex, ProForm, Life Fitness, Precor, Sole Fitness, Landice, Schwinn, Matrix and more." } },
+      { "@type": "Question", "name": "Do you charge a markup on parts?", "acceptedAnswer": { "@type": "Answer", "text": "No. Parts are supplied at cost — no markup. You pay only for labour and the actual cost of the part." } },
+      { "@type": "Question", "name": "What warranty do you offer on repairs?", "acceptedAnswer": { "@type": "Answer", "text": "All repairs come with a 90-day warranty. If the same issue recurs within 90 days, we return and fix it at no charge." } }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ── Gallery ──────────────────────────────────────────────── */
+    .gallery-section { background: var(--white); }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+      aspect-ratio: 4/3;
+      cursor: pointer;
+    }
+    .gallery-item img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+      display: block;
+    }
+    .gallery-item:hover img { transform: scale(1.05); }
+    .gallery-item-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(24,22,15,0);
+      transition: background 0.3s;
+      display: flex;
+      align-items: flex-end;
+      padding: 12px;
+    }
+    .gallery-item:hover .gallery-item-overlay { background: rgba(24,22,15,0.35); }
+    .gallery-item-label {
+      font-family: var(--font-ui);
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--white);
+      background: rgba(0,119,182,0.88);
+      padding: 4px 10px;
+      border-radius: var(--radius-sm);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .gallery-item:hover .gallery-item-label { opacity: 1; }
+
+    /* ── Before/After ─────────────────────────────────────────── */
+    .ba-section { background: var(--surface-2); }
+    .ba-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .ba-card {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+      background: var(--white);
+    }
+    .ba-images {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px;
+    }
+    .ba-images img {
+      width: 100%; height: 160px;
+      object-fit: cover;
+      display: block;
+    }
+    .ba-labels {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .ba-label {
+      font-family: var(--font-ui);
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      text-align: center;
+      padding: 6px 4px;
+    }
+    .ba-label.before { background: var(--surface-3); color: var(--muted); }
+    .ba-label.after  { background: var(--amber);       color: var(--white); }
+    .ba-card-title {
+      font-family: var(--font-display);
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--heading);
+      padding: 14px 16px 12px;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Lightbox ─────────────────────────────────────────────── */
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(10,9,5,0.92);
+      z-index: 999;
+      align-items: center;
+      justify-content: center;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox img {
+      max-width: 90vw;
+      max-height: 88vh;
+      object-fit: contain;
+      border-radius: var(--radius-md);
+      box-shadow: 0 24px 80px rgba(0,0,0,0.8);
+    }
+    .lightbox-close {
+      position: absolute;
+      top: 20px; right: 24px;
+      font-size: 2rem;
+      color: rgba(255,255,255,0.7);
+      cursor: pointer;
+      background: none;
+      border: none;
+      line-height: 1;
+      transition: color 0.2s;
+    }
+    .lightbox-close:hover { color: var(--white); }
+
+    @media(max-width:768px) {
+      .gallery-grid { grid-template-columns: repeat(2,1fr); }
+      .ba-grid { grid-template-columns: 1fr; }
+    }
+    @media(max-width:480px) {
+      .gallery-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TKS8YQNZT2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TKS8YQNZT2');
+  </script>
+</head>
+<body>
+
+  <!-- ══ NAVIGATION ═════════════════════════════════════════════ -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo" aria-label="RP Fitness Solutions — Home">
+        <img src="images/rp-fitness-logo.png"
+             alt="RP Fitness Solutions Logo"
+             style="height:44px;width:auto;display:block;"
+             loading="eager">
+      </a>
+
+      <div class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#gallery">Our Work</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#coverage">Coverage</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="tel:+17739773004" class="nav-cta">📞 (773) 977-3004</a>
+    </div>
+  </nav>
+
+  <!-- ══ HERO ═══════════════════════════════════════════════════ -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <div class="hero-grid">
+        <div>
+          <span class="hero-badge">Serving Chicago &amp; 30+ Suburbs</span>
+          <h1 class="fade-in">
+            Chicago's Trusted<br>
+            <em>Fitness Equipment</em><br>
+            Repair Specialists
+          </h1>
+          <p class="hero-desc fade-in fade-in-delay-1">
+            Professional treadmill, elliptical, and exercise bike repair across Chicago and surrounding suburbs.
+            Experienced technicians, 90-day warranty, parts at cost — no markup.
+          </p>
+          <div class="hero-ctas fade-in fade-in-delay-2">
+            <a href="tel:+17739773004" class="btn btn-primary btn-lg">📞 (773) 977-3004</a>
+            <a href="#contact" class="btn btn-outline btn-lg">Get Quote</a>
+          </div>
+          <div class="hero-stats fade-in fade-in-delay-3">
+            <div>
+              <span class="hero-stat-num">5/5</span>
+              <span class="hero-stat-label">Star Rating</span>
+            </div>
+            <div>
+              <span class="hero-stat-num">90</span>
+              <span class="hero-stat-label">Day Warranty</span>
+            </div>
+            <div>
+              <span class="hero-stat-num">1,000+</span>
+              <span class="hero-stat-label">Repairs Done</span>
+            </div>
+            <div>
+              <span class="hero-stat-num">30+</span>
+              <span class="hero-stat-label">Cities Served</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image-wrap">
+          <img
+            src="images/IMG-20240501-WA0002.jpg"
+            alt="RP Fitness Solutions technician servicing a treadmill in Chicago"
+            loading="eager"
+            width="540"
+            height="480"
+          >
+          <div class="hero-image-card">
+            <div class="hero-card-icon">🛡️</div>
+            <div class="hero-card-text">
+              <strong>90-Day Warranty</strong>
+              <span>On every repair we complete</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ TRUST BAR ══════════════════════════════════════════════ -->
+  <div class="trust-bar">
+    <div class="container">
+      <div class="trust-bar-inner">
+        <div class="trust-item"><div class="trust-item-icon">⚡</div>Same-Day Service Available</div>
+        <div class="trust-item"><div class="trust-item-icon">🛡️</div>90-Day Repair Warranty</div>
+        <div class="trust-item"><div class="trust-item-icon">💰</div>Parts at Cost — No Markup</div>
+        <div class="trust-item"><div class="trust-item-icon">📍</div>30+ Chicago-Area Cities</div>
+        <div class="trust-item"><div class="trust-item-icon">⭐</div>5/5 Rating — 127+ Reviews</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ SERVICES ═══════════════════════════════════════════════ -->
+  <section class="services" id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">What We Fix</span>
+        <h2 id="services-heading">Complete Fitness Equipment Services</h2>
+        <div class="divider divider-center" aria-hidden="true"></div>
+        <p>Professional on-site repair, assembly and maintenance for all fitness equipment brands across Chicago and suburbs. Residential and commercial.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="service-card reveal">
+          <span class="service-icon">🔧</span>
+          <h3><a href="services/treadmill-repair.html" style="color:inherit;">Treadmill Repair</a></h3>
+          <p>Expert treadmill repair for all brands — motor, belt, incline, console and more. Most repairs completed in a single visit.</p>
+          <ul class="service-features">
+            <li>Motor &amp; belt replacement</li>
+            <li>Incline system repair</li>
+            <li>Console diagnostics</li>
+            <li>All major brands covered</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-icon">⚙️</span>
+          <h3><a href="services/elliptical-repair.html" style="color:inherit;">Elliptical Repair</a></h3>
+          <p>Comprehensive elliptical repair covering drive systems, resistance units, stride issues and electronics for all models.</p>
+          <ul class="service-features">
+            <li>Drive belt &amp; axle repair</li>
+            <li>Resistance calibration</li>
+            <li>Console &amp; wiring fixes</li>
+            <li>Stride alignment</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-icon">🚲</span>
+          <h3><a href="services/exercise-bike-repair.html" style="color:inherit;">Exercise Bike Repair</a></h3>
+          <p>Stationary bike and Peloton repair — resistance, flywheel, display and touchscreen diagnostics for all models.</p>
+          <ul class="service-features">
+            <li>Resistance mechanism</li>
+            <li>Flywheel &amp; bearings</li>
+            <li>Display &amp; tablet issues</li>
+            <li>Peloton specialist</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-icon">🏗️</span>
+          <h3><a href="services/gym-equipment-assembly.html" style="color:inherit;">Assembly &amp; Setup</a></h3>
+          <p>Professional assembly of new and used fitness equipment with proper calibration, safety checks and full operational testing.</p>
+          <ul class="service-features">
+            <li>New equipment setup</li>
+            <li>Used equipment reassembly</li>
+            <li>Proper calibration</li>
+            <li>Safety compliance check</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-icon">🛡️</span>
+          <h3><a href="services/preventive-maintenance.html" style="color:inherit;">Preventive Maintenance</a></h3>
+          <p>Scheduled tune-ups that catch issues early, extend equipment lifespan and prevent unexpected breakdowns.</p>
+          <ul class="service-features">
+            <li>Belt lubrication &amp; alignment</li>
+            <li>Drive system inspection</li>
+            <li>Electronics safety check</li>
+            <li>Scheduled maintenance plans</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-icon">🏠</span>
+          <h3><a href="services/home-gym-repair.html" style="color:inherit;">Home Gym Repair</a></h3>
+          <p>Multi-station home gyms, cable systems and weight machines — residential and commercial serviced on-site.</p>
+          <ul class="service-features">
+            <li>Cable &amp; pulley systems</li>
+            <li>Weight stack service</li>
+            <li>Frame &amp; upholstery repair</li>
+            <li>Commercial gyms welcome</li>
+          </ul>
+        </article>
+      </div>
+
+      <!-- Brands -->
+      <div class="reveal" style="margin-top:52px;">
+        <p style="font-family:var(--font-ui);font-size:0.72rem;text-transform:uppercase;letter-spacing:0.14em;color:var(--muted);margin-bottom:14px;">Brands We Service</p>
+        <div class="equipment-grid">
+          <span class="equipment-tag">NordicTrack</span>
+          <span class="equipment-tag">Peloton</span>
+          <span class="equipment-tag">Bowflex</span>
+          <span class="equipment-tag">ProForm</span>
+          <span class="equipment-tag">Life Fitness</span>
+          <span class="equipment-tag">Precor</span>
+          <span class="equipment-tag">Landice</span>
+          <span class="equipment-tag">Sole Fitness</span>
+          <span class="equipment-tag">Schwinn</span>
+          <span class="equipment-tag">Technogym</span>
+          <span class="equipment-tag">Matrix</span>
+          <span class="equipment-tag">Horizon Fitness</span>
+          <span class="equipment-tag">iFIT</span>
+          <span class="equipment-tag">Star Trac</span>
+          <span class="equipment-tag">All Other Brands</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ OUR WORK GALLERY ════════════════════════════════════════ -->
+  <section class="gallery-section" id="gallery" style="background:var(--surface-2);padding:var(--section-pad) 0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Our Work</span>
+        <h2>Recent Repairs</h2>
+        <div class="divider divider-center"></div>
+        <p>Real jobs, real results — on-site fitness equipment repair across Chicago and suburbs.</p>
+      </div>
+
+      <div class="gallery-grid reveal">
+        <div class="gallery-item" onclick="openLightbox('images/img1.jpg')">
+          <img src="images/img1.jpg" alt="Fitness equipment repair Chicago" loading="lazy">
+          <div class="gallery-item-overlay"><span class="gallery-item-label">Treadmill Repair</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/img2.jpg')">
+          <img src="images/img2.jpg" alt="Treadmill repair Chicago" loading="lazy">
+          <div class="gallery-item-overlay"><span class="gallery-item-label">Eliptical after Installation</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/20240601_101842.jpg')">
+          <img src="images/20240601_101842.jpg" alt="Gym equipment repair Chicago" loading="lazy">
+          <div class="gallery-item-overlay"><span class="gallery-item-label">Treadmill before Installation</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/20240601_111234.jpg')">
+          <img src="images/20240601_111234.jpg" alt="Fitness equipment technician Chicago" loading="lazy">
+          <div class="gallery-item-overlay"><span class="gallery-item-label">Treadmill after Installation</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/IMG-20240501-WA0001.jpg')">
+          <img src="images/IMG-20240501-WA0001.jpg" alt="Treadmill motor repair Chicago" loading="lazy">
+          <div class="gallery-item-overlay"><span class="gallery-item-label">Motor Repair</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/IMG-20240501-WA0002.jpg')">
+          <img src="images/IMG-20240501-WA0002.jpg" alt="Treadmill belt replacement Chicago" loading="lazy">
+          <div class="gallery-item-overlay"><span class="gallery-item-label">Cable Machine Maintenance</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/repair1.jpg')">
+          <img src="images/repair1.jpg" alt="Fitness repair work Chicago" loading="lazy">
+          <div class="gallery-item-overlay"><span class="gallery-item-label">Assembly Work</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/repair2.jpg')">
+          <img src="images/repair2.jpg" alt="Exercise equipment repair Chicago" loading="lazy">
+          <div class="gallery-item-overlay"><span class="gallery-item-label">Component Repair</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/repair3.jpg')">
+          <img src="images/repair3.jpg" alt="Treadmill servicing Chicago" loading="lazy">
+          <div class="gallery-item-overlay"><span class="gallery-item-label">Full Assembly</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/repair4.jpg')">
+          <img src="images/repair4.jpg" alt="Gym equipment technician Chicago" loading="lazy">
+          <div class="gallery-item-overlay"><span class="gallery-item-label">Diagnostics &amp; Repair</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/repair5.jpg')">
+          <img src="images/repair5.jpg" alt="Treadmill component repair Chicago" loading="lazy">
+          <div class="gallery-item-overlay"><span class="gallery-item-label">Parts Replacement</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox('images/repair6.jpg')">
+          <img src="images/repair6.jpg" alt="Fitness equipment maintenance Chicago" loading="lazy">
+          <div class="gallery-item-overlay"><span class="gallery-item-label">Maintenance</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ BEFORE / AFTER ══════════════════════════════════════════ -->
+  <section class="ba-section" style="padding:var(--section-pad) 0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Before &amp; After</span>
+        <h2>The Difference a Repair Makes</h2>
+        <div class="divider divider-center"></div>
+        <p>See the quality of our work — equipment restored to full working condition.</p>
+      </div>
+
+      <div class="ba-grid reveal">
+        <div class="ba-card">
+          <div class="ba-images">
+            <img src="images/before_treadmil1.jpg" alt="Treadmill before repair" loading="lazy">
+            <img src="images/after_treadmil1.jpg"  alt="Treadmill after repair"  loading="lazy">
+          </div>
+          <div class="ba-labels">
+            <span class="ba-label before">Before</span>
+            <span class="ba-label after">After</span>
+          </div>
+          <p class="ba-card-title">Treadmill Assembly</p>
+        </div>
+
+        <div class="ba-card">
+          <div class="ba-images">
+            <img src="images/before_treadmil4.jpg" alt="Treadmill before service" loading="lazy">
+            <img src="images/after_treadmil4.jpg"  alt="Treadmill after service"  loading="lazy">
+          </div>
+          <div class="ba-labels">
+            <span class="ba-label before">Before</span>
+            <span class="ba-label after">After</span>
+          </div>
+          <p class="ba-card-title">Eliptical Moving &amp; Installation</p>
+        </div>
+
+        <div class="ba-card">
+          <div class="ba-images">
+            <img src="images/before_treadmil5.jpg" alt="Equipment before repair" loading="lazy">
+            <img src="images/after_treadmil5.jpg"  alt="Equipment after repair"  loading="lazy">
+          </div>
+          <div class="ba-labels">
+            <span class="ba-label before">Before</span>
+            <span class="ba-label after">After</span>
+          </div>
+          <p class="ba-card-title">Full Treadmill Overhaul&lpar;Belt and Deck Replacement&rpar;</p>
+        </div>
+
+        <div class="ba-card">
+          <div class="ba-images">
+            <img src="images/bfr1.jpg" alt="Before repair" loading="lazy">
+            <img src="images/aftr1.jpg" alt="After repair"  loading="lazy">
+          </div>
+          <div class="ba-labels">
+            <span class="ba-label before">Before</span>
+            <span class="ba-label after">After</span>
+          </div>
+          <p class="ba-card-title">Installation &amp; Maintanance</p>
+        </div>
+
+        <div class="ba-card">
+          <div class="ba-images">
+            <img src="images/bfr2.jpg" alt="Before service" loading="lazy">
+            <img src="images/aftr2.jpg" alt="After service"  loading="lazy">
+          </div>
+          <div class="ba-labels">
+            <span class="ba-label before">Before</span>
+            <span class="ba-label after">After</span>
+          </div>
+          <p class="ba-card-title">Full Treadmill Assembly</p>
+        </div>
+
+        <div class="ba-card">
+          <div class="ba-images">
+            <img src="images/bfr3.jpg" alt="Before maintenance" loading="lazy">
+            <img src="images/aftr3.jpg" alt="After maintenance"  loading="lazy">
+          </div>
+          <div class="ba-labels">
+            <span class="ba-label before">Before</span>
+            <span class="ba-label after">After</span>
+          </div>
+          <p class="ba-card-title">Preventive Maintenance</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ WHY US ══════════════════════════════════════════════════ -->
+  <section class="why-us" aria-labelledby="why-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Why Choose RP</span>
+        <h2 id="why-heading">The Chicagoland Fitness Repair Standard</h2>
+        <div class="divider divider-center" aria-hidden="true"></div>
+      </div>
+      <div class="why-grid reveal">
+        <div class="why-item">
+          <div class="why-item-icon">⚡</div>
+          <div>
+            <h4>Same-Day Service</h4>
+            <p>Repairs often completed the same day you call. We keep common parts stocked in our service van so most jobs need just one visit.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">💰</div>
+          <div>
+            <h4>No Markup on Parts</h4>
+            <p>Parts are sourced at cost and passed directly to you — no markup. You pay the real price of the part, every time.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">🛡️</div>
+          <div>
+            <h4>90-Day Warranty</h4>
+            <p>Every repair is backed by our 90-day warranty. Same issue within 90 days? We come back and fix it at no charge.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">🏅</div>
+          <div>
+            <h4>Experienced Technicians</h4>
+            <p>Experienced specialists across all major brands — NordicTrack, Landice, Peloton, Life Fitness and more.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">📍</div>
+          <div>
+            <h4>Chicago-Wide Coverage</h4>
+            <p>We serve 30+ cities across Chicagoland — from city neighbourhoods to suburbs like Naperville, Schaumburg and Barrington.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="why-item-icon">🏢</div>
+          <div>
+            <h4>Residential &amp; Commercial</h4>
+            <p>Home gyms, condos, apartment buildings, corporate fitness centres — all environments, same professional standard.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ REVIEWS ════════════════════════════════════════════════ -->
+  <section class="reviews" id="reviews" aria-labelledby="reviews-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Customer Reviews</span>
+        <h2 id="reviews-heading">What Our Customers Say</h2>
+        <div class="divider divider-center" aria-hidden="true"></div>
+        <p>Verified reviews from real customers across the Chicago area and beyond.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="review-card reveal" itemscope itemtype="https://schema.org/Review">
+          <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+          <p class="review-text" itemprop="reviewBody">"Recently purchased a high end treadmill used off Kijiji. After having some trouble reassembling it we reached out to AP who came the next day. He reassembled, serviced and got it operating smoothly within an hour. Extremely professional. I would absolutely recommend RP Fitness."</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">K</div>
+            <div>
+              <span class="review-name" itemprop="author">Kendra Kliener</span>
+              
+              <span class="review-badge">⭐ Verified Google Review</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card reveal" itemscope itemtype="https://schema.org/Review">
+          <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+          <p class="review-text" itemprop="reviewBody">"AP was able to repair my old treadmill — the incline had stopped working. I thought we had to buy a new one, and he repaired it within the hour. Great service and great pricing. I would recommend RP Fitness Solutions to friends and family."</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">S</div>
+            <div>
+              <span class="review-name" itemprop="author">Steve C.</span>
+              
+              <span class="review-badge">⭐ Verified Google Review</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card reveal" itemscope itemtype="https://schema.org/Review">
+          <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+          <p class="review-text" itemprop="reviewBody">"Perfect guy to handle treadmills. I recommend him for any issues related to these machines. Decent price and well mannered. Thank you for your service."</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">T</div>
+            <div>
+              <span class="review-name" itemprop="author">Taranpreet Singh Grewal</span>
+              
+              <span class="review-badge">⭐ Verified Google Review</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card reveal" itemscope itemtype="https://schema.org/Review">
+          <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+          <p class="review-text" itemprop="reviewBody">"Sameer was able to come out the same day and diagnosed the problem easily. Very knowledgeable and fixed the issue instantly. Thank you so much!"</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">K</div>
+            <div>
+              <span class="review-name" itemprop="author">Katherine H.</span>
+              
+              <span class="review-badge">⭐ Verified Google Review</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card reveal" itemscope itemtype="https://schema.org/Review">
+          <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+          <p class="review-text" itemprop="reviewBody">"AP was great! I have an older home gym and it was a huge pain to get the cables and pulleys figured out. He came in and got it sorted out so now it's completely usable. Thank you again AP!"</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">R</div>
+            <div>
+              <span class="review-name" itemprop="author">Ryan McLeod</span>
+              
+              <span class="review-badge">⭐ Verified Google Review</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card reveal" style="display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:var(--amber-light);border-color:var(--amber-border);">
+          <div style="font-size:2.5rem;font-family:var(--font-display);font-weight:900;color:var(--heading);line-height:1;">5.0</div>
+          <div class="stars" style="display:block;margin:8px 0;">★★★★★</div>
+          <p style="font-family:var(--font-ui);font-size:0.88rem;color:var(--body);margin-bottom:4px;">127+ verified reviews</p>
+          <p style="font-family:var(--font-ui);font-size:0.78rem;color:var(--muted);">Google · Thumbtack · ProvenExpert</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ COVERAGE ═══════════════════════════════════════════════ -->
+  <section class="coverage" id="coverage" aria-labelledby="coverage-heading">
+    <div class="container">
+      <div class="coverage-intro">
+        <div class="reveal">
+          <span class="eyebrow">Service Coverage</span>
+          <h2 id="coverage-heading">Serving Chicago &amp; Surrounding Areas</h2>
+          <div class="divider" aria-hidden="true"></div>
+          <p>Based in Niles, IL — we cover the entire Chicago metro area within 70km, including the city, north shore, western suburbs and south suburbs.</p>
+          <div style="margin-top:28px;display:flex;gap:36px;flex-wrap:wrap;">
+            <div>
+              <span style="font-family:var(--font-display);font-size:2.2rem;font-weight:900;color:var(--heading);display:block;line-height:1;">30+</span>
+              <span style="font-family:var(--font-ui);font-size:0.68rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);">Cities Served</span>
+            </div>
+            <div>
+              <span style="font-family:var(--font-display);font-size:2.2rem;font-weight:900;color:var(--heading);display:block;line-height:1;">70km</span>
+              <span style="font-family:var(--font-ui);font-size:0.68rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);">Service Radius</span>
+            </div>
+            <div>
+              <span style="font-family:var(--font-display);font-size:2.2rem;font-weight:900;color:var(--heading);display:block;line-height:1;">7 Days</span>
+              <span style="font-family:var(--font-ui);font-size:0.68rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);">Per Week</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <span class="area-chips-label">Service areas</span>
+          <div class="area-chips">
+            <a href="areas/chicago.html"           class="area-chip featured">Chicago</a>
+            <a href="areas/niles.html"             class="area-chip featured">Niles</a>
+            <a href="areas/evanston.html"          class="area-chip featured">Evanston</a>
+            <a href="areas/skokie.html"            class="area-chip featured">Skokie</a>
+            <a href="areas/glenview.html"          class="area-chip featured">Glenview</a>
+            <a href="areas/barrington.html"        class="area-chip featured">Barrington</a>
+            <a href="areas/elgin.html"             class="area-chip">Elgin</a>
+            <a href="areas/lombard.html"           class="area-chip">Lombard</a>
+            <a href="areas/west-chicago.html"      class="area-chip">West Chicago</a>
+            <a href="areas/naperville.html"        class="area-chip">Naperville</a>
+            <a href="areas/westmont.html"          class="area-chip">Westmont</a>
+            <a href="areas/bridgeview.html"        class="area-chip">Bridgeview</a>
+            <a href="areas/cicero.html"            class="area-chip">Cicero</a>
+            <a href="areas/oak-park.html"          class="area-chip">Oak Park</a>
+            <span class="area-chip">West Town</span>
+            <a href="areas/des-plaines.html"       class="area-chip">Des Plaines</a>
+            <a href="areas/arlington-heights.html" class="area-chip">Arlington Heights</a>
+            <a href="areas/schaumburg.html"        class="area-chip">Schaumburg</a>
+            <a href="areas/wilmette.html"          class="area-chip">Wilmette</a>
+            <a href="areas/palatine.html"          class="area-chip">Palatine</a>
+            <a href="areas/north-shore.html"       class="area-chip">North Shore</a>
+          </div>
+          <p style="margin-top:14px;font-family:var(--font-ui);font-size:0.8rem;color:var(--muted);">Not listed? Call us — we likely cover your area.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CONTACT ════════════════════════════════════════════════ -->
+  <section class="quote-section" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="quote-grid">
+        <div class="reveal" style="padding-top:8px;">
+          <span class="eyebrow">Get Quote</span>
+          <h2 id="contact-heading">Contact Us</h2>
+          <div class="divider" aria-hidden="true"></div>
+          <p style="margin-bottom:36px;">Tell us about your equipment and we'll get back to you with a transparent assessment — no commitment required.</p>
+
+          <div class="contact-block">
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <strong>Call or Text</strong>
+                <span><a href="tel:+17739773004">(773) 977-3004</a> — 7 days a week</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <strong>Email</strong>
+                <span><a href="mailto:rpfitnesssolutions@gmail.com">rpfitnesssolutions@gmail.com</a></span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <strong>Service Area</strong>
+                <span>Chicago &amp; 30+ suburbs — based in Niles, IL</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🕐</div>
+              <div>
+                <strong>Hours</strong>
+                <span>Mon–Sun 7:00am – 9:00pm</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="form-card">
+            <p class="form-title">Send Us a Message</p>
+            <form id="quote-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fname">First Name *</label>
+                  <input type="text" id="fname" name="first_name" placeholder="John" required>
+                </div>
+                <div class="form-group">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="last_name" placeholder="Smith">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="(773) 555-0000" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@email.com">
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="brand">Equipment Brand</label>
+                  <select id="brand" name="equipment_brand">
+                    <option value="">Select brand</option>
+                    <option>NordicTrack</option>
+                    <option>Peloton</option>
+                    <option>Bowflex</option>
+                    <option>ProForm</option>
+                    <option>Life Fitness</option>
+                    <option>Precor</option>
+                    <option>Landice</option>
+                    <option>Sole Fitness</option>
+                    <option>Schwinn</option>
+                    <option>Other Brand</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="service">Service Needed</label>
+                  <select id="service" name="service_type">
+                    <option value="">Select service</option>
+                    <option>Treadmill Repair</option>
+                    <option>Elliptical Repair</option>
+                    <option>Exercise Bike Repair</option>
+                    <option>Equipment Assembly</option>
+                    <option>Preventive Maintenance</option>
+                    <option>Home Gym Repair</option>
+                    <option>Not Sure</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="city">Your City / Neighbourhood</label>
+                <input type="text" id="city" name="city" placeholder="e.g. Evanston, Naperville, Chicago">
+              </div>
+              <div class="form-group">
+                <label for="issue">Describe the Issue</label>
+                <textarea id="issue" name="issue" placeholder="e.g. Treadmill belt slipping, won't incline, makes a grinding noise…"></textarea>
+              </div>
+              <button type="submit" class="form-submit">Send Message</button>
+              <p class="form-note">We respond promptly during business hours. Your information is never shared.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="/" class="footer-logo" style="display:block;margin-bottom:14px;">
+            <img src="images/rp-fitness-logo.png"
+                 alt="RP Fitness Solutions"
+                 style="height:48px;width:auto;background:white;padding:6px 10px;border-radius:6px;">
+          </a>
+          <p class="footer-desc">Chicago's trusted fitness equipment repair specialists. Professional, reliable service across the greater Chicago metro area.</p>
+          <p class="footer-rating">⭐ <strong>5/5</strong> from 127+ customers</p>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul class="footer-links">
+            <li><a href="services/treadmill-repair.html">Treadmill Repair</a></li>
+            <li><a href="services/elliptical-repair.html">Elliptical Repair</a></li>
+            <li><a href="services/exercise-bike-repair.html">Exercise Bike Repair</a></li>
+            <li><a href="services/gym-equipment-assembly.html">Assembly &amp; Setup</a></li>
+            <li><a href="services/preventive-maintenance.html">Preventive Maintenance</a></li>
+            <li><a href="services/home-gym-repair.html">Home Gym Repair</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Service Areas</h5>
+          <ul class="footer-links">
+            <li><a href="areas/chicago.html">Chicago</a></li>
+            <li><a href="areas/niles.html">Niles</a></li>
+            <li><a href="areas/evanston.html">Evanston</a></li>
+            <li><a href="areas/naperville.html">Naperville</a></li>
+            <li><a href="areas/skokie.html">Skokie</a></li>
+            <li><a href="areas/glenview.html">Glenview</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul class="footer-links">
+            <li><a href="tel:+17739773004">(773) 977-3004</a></li>
+            <li><a href="mailto:rpfitnesssolutions@gmail.com">rpfitnesssolutions@gmail.com</a></li>
+            <li>Niles, IL 60714</li>
+            <li>Mon–Sun 7am–9pm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 RP Fitness Solutions. All Rights Reserved. Serving Chicago &amp; Chicagoland.</p>
+        <div class="footer-badges">
+          <span class="footer-badge">5/5 Rated</span>
+          <span class="footer-badge">90-Day Warranty</span>
+          <span class="footer-badge">Same-Day Service</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══ FLOATING CTA ════════════════════════════════════════════ -->
+  <div class="floating-cta" aria-label="Quick contact">
+    <a href="tel:+17739773004" class="float-btn float-call" aria-label="Call RP Fitness Solutions">📞 Call Now</a>
+  </div>
+
+  <!-- ══ LIGHTBOX ════════════════════════════════════════════════ -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close image">✕</button>
+    <img id="lightbox-img" src="" alt="Repair work">
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>
+    function openLightbox(src) {
+      document.getElementById('lightbox-img').src = src;
+      document.getElementById('lightbox').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+  </script>
+</body>
+</html>

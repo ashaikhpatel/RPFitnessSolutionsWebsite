@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.rpfitnesssolutions.com/sitemap.xml
+
+Disallow: /areas/_template.html

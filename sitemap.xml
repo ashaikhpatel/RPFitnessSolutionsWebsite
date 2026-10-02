@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- ══ Homepage ═════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.rpfitnesssolutions.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ══ Service Pages ════════════════════════════════════════ -->
+  <url><loc>https://www.rpfitnesssolutions.com/services/treadmill-repair.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/services/elliptical-repair.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/services/exercise-bike-repair.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/services/gym-equipment-assembly.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/services/preventive-maintenance.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/services/home-gym-repair.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- ══ Area Pages — Tier 1 ══════════════════════════════════ -->
+  <url><loc>https://www.rpfitnesssolutions.com/areas/chicago.html</loc><changefreq>monthly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/evanston.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/skokie.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/des-plaines.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/arlington-heights.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/schaumburg.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/naperville.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+
+  <!-- ══ Area Pages — Tier 2 ══════════════════════════════════ -->
+  <url><loc>https://www.rpfitnesssolutions.com/areas/oak-park.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/glenview.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/wilmette.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/palatine.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/bolingbrook.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/joliet.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/aurora.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/waukegan.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/elgin.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/tinley-park.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/oak-lawn.html</loc><changefreq>monthly</changefreq><priority>0.70</priority></url>
+
+  <!-- ══ Area Pages — Tier 3 ══════════════════════════════════ -->
+  <url><loc>https://www.rpfitnesssolutions.com/areas/orland-park.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/park-ridge.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/lombard.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/downers-grove.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/cicero.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/berwyn.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/north-shore.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+
+
+  <!-- ══ New area pages ═══════════════════════════════════════ -->
+  <url><loc>https://www.rpfitnesssolutions.com/areas/niles.html</loc><changefreq>monthly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/barrington.html</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/west-chicago.html</loc><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/westmont.html</loc><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.rpfitnesssolutions.com/areas/bridgeview.html</loc><changefreq>monthly</changefreq><priority>0.70</priority></url>
+
+
+  <!-- ══ Additional pages ══════════════════════════════════════ -->
+  <url><loc>https://www.rpfitnesssolutions.com/about.html</loc><changefreq>monthly</changefreq><priority>0.70</priority></url>
+
+</urlset>
